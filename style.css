@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     font-family: 'League Spartan', sans-serif;
+    min-height: 100vh;
 }
 
 @media (min-width: 600px) {
@@ -20,6 +21,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: -150% -170%, 180% 140%;
+    min-height: 100vh;
     }
 }
 
@@ -34,6 +36,14 @@ body {
 
 .Colordiv {
     background-color: var(--LightGrayishMagenta);
+}
+
+.estrellas {
+    background-image: url(images/icon-star.svg);
+    background-size: 18px;
+    background-repeat: space no-repeat;
+    width: 6.4rem;
+    overflow: hidden;
 }
 
 .CardColor {
